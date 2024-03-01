@@ -1,0 +1,35 @@
+:root {
+  --border-color: #382b1b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #c4bcb3;
+  height: 100vh;
+}
+.main-wrapper {
+  padding: 0px 3.5rem;
+}
+
+.top-scroller {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.top-scroller hr {
+  border: 1px solid var(--border-color);
+}
+.top-scroller h4 {
+  display: flex;
+  gap: 35px;
+  padding: 15px 0;
+}
+
+.logo-section {
+  display: flex;
+}
