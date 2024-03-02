@@ -154,7 +154,27 @@ header {
 /* Active link */
 
 /*=============== HOME ===============*/
+.home {
+  background-color: #f7e6d3;
+}
 
+.title {
+  text-align: center;
+  background-color: white;
+}
+.title h1 {
+  color: #676253;
+  text-wrap: wrap;
+}
+
+.card-container {
+  background-color: #d2bfae;
+  color: black;
+}
+.card-container {
+  border: 5px solid black;
+  border-radius: 11rem;
+}
 /*=============== BUTTON ===============*/
 
 /*=============== NEW ===============*/
