@@ -130,8 +130,15 @@ img {
   font-weight: var(--font-semi-bold);
 }
 .nav_logo i {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: initial;
+}
+.nav_logo span {
+  position: absolute;
+  top: 3.5rem;
+  left: 5px;
+  font-weight: bolder;
+  letter-spacing: 8px;
 }
 .nav_toggle,
 .nav_close {
@@ -286,6 +293,9 @@ img {
     margin-left: auto;
     flex-direction: row;
     column-gap: 4.5rem;
+  }
+  .nav_logo span {
+    left: 0px;
   }
 }
 
