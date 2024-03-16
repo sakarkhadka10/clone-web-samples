@@ -16,6 +16,14 @@
   --body-color: hsl(268, 58%, 22%);
   --border-color: rgb(22 21 55);
   --button-back-color: rgb(254 196 71);
+  --button-background: linear-gradient(
+    to right,
+    #dd5140,
+    #db2f55,
+    #cf006e,
+    #b7008a,
+    #8d16a4
+  );
 
   --new-text-color: #161537;
   --ast-yellow: #fec447;
@@ -190,7 +198,7 @@ img {
 .nav_button {
   display: inline-block;
   width: max-content;
-  background-color: var(--body-color);
+  background-image: var(--button-background);
   border: 2px solid var(--text-color);
   padding: 1rem 2rem;
   border-radius: 4rem;
